@@ -121,7 +121,7 @@ Save the output to file:
     20 If the implementation is easy to explain, it may be a good idea.
     21 Namespaces are one honking great idea -- let's do more of those!
 
-Inplace editing:
+### Inplace editing:
 
 Store the changes to back to the input file:
 
