@@ -63,6 +63,14 @@ Standard Input is not a problem:
     20 If the implementation is easy to explain, it may be a good idea.
     21 Namespaces are one honking great idea -- let's do more of those!
 
+### Non-existent file
+
+Prints no such file to standard error for non-existent files:
+
+    $ ./cli_skeleton.py elif
+    cli_skeleton.py: No such file elif
+
+
 ### No input
 
 Displays the help message on no input:
