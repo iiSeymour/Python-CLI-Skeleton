@@ -21,7 +21,8 @@ def main(args, help):
 
 if __name__ == "__main__":
     import os, sys, select, argparse, fileinput
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(formatter_class=lambda prog: argparse.HelpFormatter(prog,max_help_position=30),
+                                     description="A simple line numbering program to demonstrate a good CLI with python.")
     parser.add_argument('files', nargs='*', help='input files')
     group = parser.add_mutually_exclusive_group()
     group.add_argument('-i', '--inplace', action='store_true', help='modify files inplace')

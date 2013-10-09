@@ -1,16 +1,17 @@
-A simple line numbering program to demonstrate a good CLI with python.
+A Python CLI skeleton interface:
 
     $ ./cli_skeleton.py -h
     usage: cli_skeleton.py [-h] [-i | -o OUTPUT] [files [files ...]]
 
+    A simple line numbering program to demonstrate a good CLI with python.
+
     positional arguments:
-      files                 input files
+      files                       input files
 
     optional arguments:
-      -h, --help            show this help message and exit
-      -i, --inplace         modify files inplace
-      -o OUTPUT, --output OUTPUT
-                              output file. The default is stdout
+      -h, --help                  show this help message and exit
+      -i, --inplace               modify files inplace
+      -o OUTPUT, --output OUTPUT  output file. The default is stdout
 
 ### File Input
 
@@ -81,14 +82,15 @@ Displays the help message on no input:
     $ ./cli_skeleton.py
     usage: cli_skeleton.py [-h] [-i | -o OUTPUT] [files [files ...]]
 
+    A simple line numbering program to demonstrate a good CLI with python.
+
     positional arguments:
-      files                 input files
+      files                       input files
 
     optional arguments:
-      -h, --help            show this help message and exit
-      -i, --inplace         modify files inplace
-      -o OUTPUT, --output OUTPUT
-                              output file. The default is stdout
+      -h, --help                  show this help message and exit
+      -i, --inplace               modify files inplace
+      -o OUTPUT, --output OUTPUT  output file. The default is stdout
 
 ### File output
 
