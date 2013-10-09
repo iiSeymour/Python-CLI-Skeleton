@@ -10,7 +10,7 @@ A simple line numbering program to demonstrate a good CLI with python.
       -h, --help            show this help message and exit
       -i, --inplace         modify files inplace
       -o OUTPUT, --output OUTPUT
-                              output file. The default is stdout
+                            output file. The default is stdout
 
 ### File Input
 
@@ -88,7 +88,7 @@ Displays the help message on no input:
       -h, --help            show this help message and exit
       -i, --inplace         modify files inplace
       -o OUTPUT, --output OUTPUT
-                              output file. The default is stdout
+                            output file. The default is stdout
 
 ### File output
 
