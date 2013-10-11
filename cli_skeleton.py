@@ -16,8 +16,10 @@ def main(args, help):
     try:
         for i, line in enumerate(fileinput.input(args.files, inplace=args.inplace)):
             print i + 1, line.strip()
-    except IOError:
-        sys.stderr.write("%s: No such file %s\n" % (os.path.basename(__file__), fileinput.filename()))
+    except EnvironmentError as e:
+        sys.stderr.write("%s\n" % e)
+    except KeyboardInterrupt:
+        pass
 
 if __name__ == "__main__":
     import os, sys, select, argparse, fileinput
